@@ -367,7 +367,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-05 04:51:26 -0700"
+      "tick": "2020-09-06 10:02:39 -0700"
     },
     "done": false
   },
@@ -1592,6 +1592,7 @@
       "mutton": "2020-09-05 04:44:00 -0700",
       "bread": "2020-08-30 07:21:01 -0700",
       "golden_apple": "2020-09-01 02:06:23 -0700",
+      "cooked_chicken": "2020-09-06 09:33:59 -0700",
       "cooked_salmon": "2020-09-02 02:31:10 -0700"
     },
     "done": false
@@ -2505,6 +2506,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2020-08-30 07:29:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2020-09-06 10:12:31 -0700"
     },
     "done": true
   },

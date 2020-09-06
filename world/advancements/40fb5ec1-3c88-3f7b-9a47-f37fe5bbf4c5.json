@@ -662,7 +662,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-06 06:21:43 -0700"
+      "tick": "2020-09-06 10:02:39 -0700"
     },
     "done": false
   },
@@ -1426,6 +1426,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2020-08-31 04:26:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2020-09-06 10:19:53 -0700"
     },
     "done": true
   },
