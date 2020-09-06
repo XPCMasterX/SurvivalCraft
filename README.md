@@ -1,0 +1,2 @@
+# SurvivalCraft
+Server for Survival
