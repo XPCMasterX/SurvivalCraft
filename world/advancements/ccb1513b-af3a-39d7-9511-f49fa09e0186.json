@@ -1,0 +1,66 @@
+{
+  "main:main/custom_nether_portals": {
+    "criteria": {
+      "tick": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "global:boomber": {
+    "criteria": {
+      "trigger": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "boomber:veinminer": {
+    "criteria": {
+      "trigger": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "main:main/multiplayer_sleep": {
+    "criteria": {
+      "tick": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "main:main/dp": {
+    "criteria": {
+      "tick": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "main:main/root": {
+    "criteria": {
+      "tick": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "main:main/track_raw_stats": {
+    "criteria": {
+      "tick": "2020-09-06 18:41:14 +0100"
+    },
+    "done": true
+  },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2020-09-06 18:41:14 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2020-09-06 18:41:54 +0100",
+      "minecraft:taiga_hills": "2020-09-06 18:41:55 +0100",
+      "minecraft:river": "2020-09-06 18:42:09 +0100",
+      "minecraft:plains": "2020-09-06 18:41:14 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2578
+}
