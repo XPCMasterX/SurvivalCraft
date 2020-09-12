@@ -299,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2020-09-11 10:24:50 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2020-08-30 07:39:40 -0700"
@@ -399,6 +405,7 @@
     "criteria": {
       "cooked_porkchop": "2020-09-01 02:32:20 -0700",
       "cooked_mutton": "2020-08-30 08:21:58 -0700",
+      "cooked_beef": "2020-09-11 10:21:38 -0700",
       "baked_potato": "2020-08-30 08:00:21 -0700",
       "spider_eye": "2020-09-05 06:22:35 -0700",
       "bread": "2020-08-30 07:30:00 -0700",
@@ -662,7 +669,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-06 10:02:39 -0700"
+      "tick": "2020-09-11 10:49:25 -0700"
     },
     "done": false
   },
@@ -981,6 +988,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2020-08-30 07:17:24 -0700",
+      "minecraft:ghast": "2020-09-11 10:49:44 -0700",
       "minecraft:magma_cube": "2020-08-31 05:42:20 -0700",
       "minecraft:spider": "2020-08-30 07:46:40 -0700",
       "minecraft:creeper": "2020-09-02 01:33:38 -0700",
