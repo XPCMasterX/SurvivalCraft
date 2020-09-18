@@ -373,7 +373,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-11 11:17:40 -0700"
+      "tick": "2020-09-18 09:58:58 -0700"
     },
     "done": false
   },
@@ -546,7 +546,10 @@
       "minecraft:spider": "2020-08-30 07:44:36 -0700",
       "minecraft:creeper": "2020-09-02 01:33:15 -0700",
       "minecraft:slime": "2020-08-30 07:46:40 -0700",
+      "minecraft:zombified_piglin": "2020-09-18 09:16:55 -0700",
       "minecraft:witch": "2020-09-03 08:56:11 -0700",
+      "minecraft:piglin": "2020-09-18 09:17:48 -0700",
+      "minecraft:enderman": "2020-09-18 09:16:25 -0700",
       "minecraft:zombie": "2020-08-30 07:16:34 -0700",
       "minecraft:drowned": "2020-09-02 02:11:22 -0700"
     },
@@ -741,6 +744,12 @@
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2020-09-02 03:02:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2020-09-18 09:28:17 -0700"
     },
     "done": true
   },
@@ -1260,6 +1269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2020-09-18 08:55:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2020-08-30 07:29:52 -0700"
@@ -1596,6 +1611,7 @@
     "criteria": {
       "cooked_porkchop": "2020-08-30 07:37:12 -0700",
       "chicken": "2020-09-05 04:44:43 -0700",
+      "cooked_mutton": "2020-09-18 09:17:03 -0700",
       "sweet_berries": "2020-09-11 10:40:39 -0700",
       "cooked_beef": "2020-09-05 04:24:32 -0700",
       "baked_potato": "2020-08-30 08:21:12 -0700",
@@ -1605,6 +1621,7 @@
       "mutton": "2020-09-05 04:44:00 -0700",
       "bread": "2020-08-30 07:21:01 -0700",
       "golden_apple": "2020-09-01 02:06:23 -0700",
+      "rotten_flesh": "2020-09-18 09:38:30 -0700",
       "cooked_chicken": "2020-09-06 09:33:59 -0700",
       "cooked_salmon": "2020-09-02 02:31:10 -0700"
     },
@@ -2708,6 +2725,12 @@
     },
     "done": true
   },
+  "uncraftable_nether_wart_block:recipes/building_blocks/nether_wart": {
+    "criteria": {
+      "has_nether_wart_block": "2020-09-18 09:08:02 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2020-08-30 07:32:08 -0700"
@@ -2750,5 +2773,5 @@
     },
     "done": true
   },
-  "DataVersion": 2578
+  "DataVersion": 2580
 }
