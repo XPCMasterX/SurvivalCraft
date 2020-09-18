@@ -23,15 +23,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_button": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "has_planks": "2020-09-16 09:21:01 +0100"
+      "minecraft:zombie": "2020-09-17 20:07:53 +0100"
     },
     "done": true
   },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2020-09-15 16:00:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2020-09-16 09:21:01 +0100"
     },
     "done": true
   },
@@ -272,6 +278,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-09-17 20:07:53 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-09-12 10:21:24 +0100"
@@ -349,6 +361,12 @@
       "has_quartz": "2020-09-12 10:22:45 +0100"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2020-09-17 20:07:53 +0100"
+    },
+    "done": false
   },
   "main:main/root": {
     "criteria": {

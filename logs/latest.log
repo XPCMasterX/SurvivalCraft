@@ -1,40 +1,26 @@
-[06:57:49] [Server thread/INFO]: Hello issued server command: /gamemode spectator
-[06:57:49] [Server thread/INFO]: [Hello: Set own game mode to Spectator Mode]
-[06:58:11] [Server thread/INFO]: Hello issued server command: /gamemode creative
-[06:58:11] [Server thread/INFO]: [Hello: Set own game mode to Creative Mode]
-[06:58:25] [Server thread/INFO]: Hello issued server command: /gamemode spectator
-[06:58:25] [Server thread/INFO]: [Hello: Set own game mode to Spectator Mode]
-[06:58:32] [Server thread/INFO]: Hello issued server command: /gamemode creative
-[06:58:32] [Server thread/INFO]: [Hello: Set own game mode to Creative Mode]
-[09:19:59] [Server thread/INFO]: Hello issued server command: /gamemode spectator
-[09:19:59] [Server thread/INFO]: [Hello: Set own game mode to Spectator Mode]
-[09:20:01] [Server thread/INFO]: Hello issued server command: /gamemode creative
-[09:20:01] [Server thread/INFO]: [Hello: Set own game mode to Creative Mode]
-[09:20:08] [Server thread/INFO]: Hello issued server command: /gamemode spectator
-[09:20:08] [Server thread/INFO]: [Hello: Set own game mode to Spectator Mode]
-[09:20:09] [Server thread/INFO]: Hello issued server command: /gamemode survival
-[09:20:09] [Server thread/INFO]: [Hello: Set own game mode to Survival Mode]
-[09:23:28] [Server thread/INFO]: Hello issued server command: /gamemode spectator
-[09:23:28] [Server thread/INFO]: [Hello: Set own game mode to Spectator Mode]
-[09:23:38] [Server thread/INFO]: Hello issued server command: /gamemode creative
-[09:23:38] [Server thread/INFO]: [Hello: Set own game mode to Creative Mode]
-[09:26:59] [Server thread/INFO]: Hello lost connection: Disconnected
-[09:26:59] [Server thread/INFO]: Hello left the game
-[09:27:05] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[09:27:08] [Server thread/INFO]: Stopping the server
-[09:27:08] [Server thread/INFO]: Stopping server
-[09:27:08] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.4
-[09:27:08] [Server thread/INFO]: Saving players
-[09:27:08] [Server thread/INFO]: Saving worlds
-[09:27:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:27:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:27:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:27:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:27:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[09:27:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:27:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:27:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:27:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:27:09] [Server thread/INFO]: Flushing Chunk IO
-[09:27:09] [Server thread/INFO]: Closing Thread Pool
-[09:27:09] [Server thread/INFO]: Closing Server
+[08:09:58] [User Authenticator #2/INFO]: UUID of player Hello is ccb1513b-af3a-39d7-9511-f49fa09e0186
+[08:09:58] [Server thread/INFO]: Hello joined the game
+[08:09:58] [Server thread/INFO]: Hello[/127.0.0.1:61846] logged in with entity id 5124 at ([world]310.12609749441845, 67.0, 719.2609803132677)
+[16:11:38] [Server thread/INFO]: Hello issued server command: /gamemode survival
+[16:11:38] [Server thread/INFO]: [Hello: Set own game mode to Survival Mode]
+[16:12:24] [Server thread/INFO]: Hello issued server command: /gamemode creative
+[16:12:24] [Server thread/INFO]: [Hello: Set own game mode to Creative Mode]
+[16:13:16] [Server thread/INFO]: Hello lost connection: Disconnected
+[16:13:16] [Server thread/INFO]: Hello left the game
+[16:13:28] [Server thread/INFO]: Stopping the server
+[16:13:28] [Server thread/INFO]: Stopping server
+[16:13:28] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.4
+[16:13:28] [Server thread/INFO]: Saving players
+[16:13:28] [Server thread/INFO]: Saving worlds
+[16:13:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:13:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:13:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:13:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:13:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:13:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:13:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:13:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:13:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:13:28] [Server thread/INFO]: Flushing Chunk IO
+[16:13:28] [Server thread/INFO]: Closing Thread Pool
+[16:13:28] [Server thread/INFO]: Closing Server
