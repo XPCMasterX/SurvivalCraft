@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2020-09-19 03:57:27 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2020-08-30 07:29:52 -0700"
@@ -134,6 +140,12 @@
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2020-08-30 07:12:39 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2020-09-19 04:13:08 -0700"
     },
     "done": true
   },
@@ -230,6 +242,12 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2020-09-05 04:24:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2020-09-19 04:32:40 -0700"
     },
     "done": true
   },
@@ -373,7 +391,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-18 09:58:58 -0700"
+      "tick": "2020-09-19 04:25:20 -0700"
     },
     "done": false
   },
@@ -1106,6 +1124,7 @@
       "minecraft:cold_ocean": "2020-09-02 02:21:45 -0700",
       "minecraft:snowy_mountains": "2020-09-01 03:12:42 -0700",
       "minecraft:forest": "2020-08-30 07:54:32 -0700",
+      "minecraft:mountains": "2020-09-19 04:18:28 -0700",
       "minecraft:taiga": "2020-08-30 07:19:11 -0700",
       "minecraft:desert_hills": "2020-09-01 02:32:26 -0700",
       "minecraft:deep_cold_ocean": "2020-09-02 02:21:12 -0700",
@@ -1124,6 +1143,7 @@
       "minecraft:lukewarm_ocean": "2020-09-01 02:48:54 -0700",
       "minecraft:snowy_taiga": "2020-09-01 03:11:05 -0700",
       "minecraft:birch_forest_hills": "2020-09-05 04:45:49 -0700",
+      "minecraft:wooded_mountains": "2020-09-19 04:26:06 -0700",
       "minecraft:wooded_hills": "2020-08-30 07:45:05 -0700",
       "minecraft:swamp": "2020-08-30 07:46:10 -0700",
       "minecraft:savanna": "2020-09-01 02:33:40 -0700",
@@ -1933,6 +1953,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2020-09-19 04:32:40 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_door": {
     "criteria": {
       "has_planks": "2020-09-01 02:35:03 -0700"
@@ -2728,6 +2754,12 @@
   "uncraftable_nether_wart_block:recipes/building_blocks/nether_wart": {
     "criteria": {
       "has_nether_wart_block": "2020-09-18 09:08:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
+    "criteria": {
+      "has_yellow_dye": "2020-09-19 03:57:27 -0700"
     },
     "done": true
   },
