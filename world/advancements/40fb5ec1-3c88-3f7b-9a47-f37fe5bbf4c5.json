@@ -373,7 +373,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-26 11:16:53 -0700"
+      "tick": "2020-10-04 07:09:00 -0700"
     },
     "done": false
   },
@@ -1454,6 +1454,12 @@
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-08-31 04:29:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_the_recipe": "2020-10-04 06:56:26 -0700"
     },
     "done": true
   },
