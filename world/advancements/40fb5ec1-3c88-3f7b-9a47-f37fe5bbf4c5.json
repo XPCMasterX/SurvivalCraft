@@ -373,7 +373,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-10-04 07:09:00 -0700"
+      "tick": "2020-10-09 08:42:48 -0700"
     },
     "done": false
   },
@@ -548,6 +548,7 @@
       "minecraft:spider": "2020-08-30 07:46:40 -0700",
       "minecraft:creeper": "2020-09-02 01:33:38 -0700",
       "minecraft:slime": "2020-08-30 07:46:44 -0700",
+      "minecraft:zombified_piglin": "2020-10-10 04:34:42 -0700",
       "minecraft:wither_skeleton": "2020-09-19 03:42:08 -0700",
       "minecraft:piglin": "2020-08-31 05:51:00 -0700",
       "minecraft:enderman": "2020-08-31 04:51:05 -0700",

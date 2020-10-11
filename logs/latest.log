@@ -1,348 +1,226 @@
-[06:31:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[06:31:26] [main/INFO]: Reloading ResourceManager: Default, bukkit, VanillaTweaks_c858478.zip, better-compass.zip, custom nether portals v2.1.0.zip, durability ping v1.1.0.zip, multiplayer sleep v1.0.2.zip, track raw statistics v1.3.0.zip, veinminer-v2.0.1.zip, treecapitator-v2-6-0.zip
-[06:31:27] [Worker-Main-6/INFO]: Loaded 7 recipes
-[06:31:29] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[06:31:29] [Server thread/INFO]: Loading properties
-[06:31:29] [Server thread/INFO]: This server is running Paper version git-Paper-198 (MC: 1.16.3) (Implementing API version 1.16.3-R0.1-SNAPSHOT)
-[06:31:29] [Server thread/INFO]: Debug logging is disabled
-[06:31:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:31:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:31:29] [Server thread/INFO]: Default game type: SURVIVAL
-[06:31:29] [Server thread/INFO]: Generating keypair
-[06:31:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:31:29] [Server thread/INFO]: Using default channel type
-[06:31:30] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.4
-[06:31:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:31:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:31:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:31:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:31:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:31:30] [Server thread/INFO]: Preparing level "world"
-[06:31:31] [Server thread/INFO]: -------- World Settings For [world] --------
-[06:31:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:31:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:31:31] [Server thread/INFO]: View Distance: 10
-[06:31:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:31:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:31:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:31:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:31:31] [Server thread/INFO]: Mob Spawn Range: 8
-[06:31:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:31:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[06:31:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[06:31:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:31:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:31:31] [Server thread/INFO]: Max TNT Explosions: 100
-[06:31:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:31:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[06:31:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:31:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:31:31] [Server thread/INFO]: View Distance: 10
-[06:31:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:31:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:31:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:31:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:31:31] [Server thread/INFO]: Mob Spawn Range: 8
-[06:31:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:31:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[06:31:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[06:31:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:31:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:31:31] [Server thread/INFO]: Max TNT Explosions: 100
-[06:31:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:31:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[06:31:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:31:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:31:31] [Server thread/INFO]: View Distance: 10
-[06:31:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:31:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:31:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:31:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:31:31] [Server thread/INFO]: Mob Spawn Range: 8
-[06:31:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:31:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[06:31:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:31:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[06:31:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:31:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:31:31] [Server thread/INFO]: Max TNT Explosions: 100
-[06:31:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:31:32] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[06:31:32] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:32] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:32] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:32] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:33] [Server thread/INFO]: Time elapsed: 1567 ms
-[06:31:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:31:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[06:31:34] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:34] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:34] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:34] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:34] [Server thread/INFO]: Time elapsed: 1594 ms
-[06:31:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:31:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[06:31:34] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:35] [Server thread/INFO]: Preparing spawn area: 0%
-[06:31:35] [Worker-Main-5/INFO]: Preparing spawn area: 100%
-[06:31:35] [Server thread/INFO]: Time elapsed: 1287 ms
-[06:31:35] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.4
-[06:31:36] [Server thread/INFO]: Running delayed init tasks
-[06:31:36] [Server thread/INFO]: Done (7.188s)! For help, type "help"
-[06:31:36] [Server thread/INFO]: Timings Reset
-[06:33:34] [User Authenticator #1/INFO]: UUID of player carrot123X9 is 40fb5ec1-3c88-3f7b-9a47-f37fe5bbf4c5
-[06:33:34] [Server thread/INFO]: carrot123X9 joined the game
-[06:33:34] [Server thread/INFO]: carrot123X9[/74.82.28.4:50019] logged in with entity id 251 at ([world]251.02079920522436, 80.5, 131.78047417224363)
-[06:36:24] [User Authenticator #2/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
-[06:36:24] [Server thread/INFO]: SikeIamPeng joined the game
-[06:36:24] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:60777] logged in with entity id 742 at ([world]253.96805011321376, 82.0, 132.12582958359855)
-[06:36:41] [Async Chat Thread - #0/INFO]: <SikeIamPeng> hello r you in gam
-[06:36:47] [Async Chat Thread - #0/INFO]: <carrot123X9> yes
-[06:37:09] [Server thread/INFO]: SikeIamPeng was slain by carrot123X9
-[06:37:26] [Server thread/INFO]: carrot123X9 was burnt to a crisp whilst fighting SikeIamPeng
-[06:37:42] [Async Chat Thread - #0/INFO]: <carrot123X9> give me home cords
-[06:37:52] [Async Chat Thread - #0/INFO]: <SikeIamPeng> 1 min
-[06:38:03] [Async Chat Thread - #0/INFO]: <SikeIamPeng> die again
-[06:38:51] [Async Chat Thread - #0/INFO]: <carrot123X9> where are u
-[06:39:03] [Async Chat Thread - #0/INFO]: <carrot123X9> we need a bedroom
-[06:39:05] [Async Chat Thread - #0/INFO]: <SikeIamPeng> where is bed
-[06:39:15] [Async Chat Thread - #0/INFO]: <carrot123X9> no a seperate room
-[06:39:46] [Async Chat Thread - #0/INFO]: <SikeIamPeng> hmm this is nether room
-[06:40:09] [Async Chat Thread - #0/INFO]: <SikeIamPeng> we need eye of ender we need end
-[06:40:14] [Async Chat Thread - #0/INFO]: <carrot123X9> i will break bedrock at fortress location
-[06:40:17] [Async Chat Thread - #0/INFO]: <SikeIamPeng> for beacon
-[06:40:18] [Async Chat Thread - #0/INFO]: <carrot123X9> so easy access
-[06:40:21] [Async Chat Thread - #0/INFO]: <SikeIamPeng> elytra
-[06:40:23] [Async Chat Thread - #0/INFO]: <carrot123X9> i will break bedrock at fortress location
-[06:40:23] [Async Chat Thread - #0/INFO]: <SikeIamPeng> go
-[06:40:29] [Async Chat Thread - #0/INFO]: <carrot123X9> should i
-[06:40:31] [Async Chat Thread - #0/INFO]: <SikeIamPeng> yes
-[06:40:39] [Async Chat Thread - #0/INFO]: <carrot123X9> ok
-[06:40:42] [Async Chat Thread - #0/INFO]: <SikeIamPeng> i will farm withers blaze etc
-[06:40:50] [Async Chat Thread - #0/INFO]: <SikeIamPeng> wheer is fortress
-[06:41:07] [Server thread/INFO]: SikeIamPeng has made the advancement [We Need to Go Deeper]
-[06:41:15] [Async Chat Thread - #0/INFO]: <SikeIamPeng> ooh
-[06:41:20] [Async Chat Thread - #0/INFO]: <SikeIamPeng> bedrock top
-[06:41:40] [Async Chat Thread - #0/INFO]: <SikeIamPeng> And they link up!!
-[06:41:44] [Async Chat Thread - #0/INFO]: <SikeIamPeng> Yes
-[06:42:56] [Server thread/INFO]: SikeIamPeng has made the advancement [Ice Bucket Challenge]
-[06:43:59] [Async Chat Thread - #1/INFO]: <carrot123X9> have you got obsidion
-[06:44:04] [Async Chat Thread - #1/INFO]: <SikeIamPeng> 2
-[06:44:07] [Async Chat Thread - #1/INFO]: <carrot123X9> yes
-[06:44:13] [Async Chat Thread - #1/INFO]: <carrot123X9> where
-[06:44:37] [Async Chat Thread - #1/INFO]: <carrot123X9> where is tnt
-[06:44:37] [Async Chat Thread - #1/INFO]: <SikeIamPeng> place bed down somewhere temp
-[06:44:53] [Async Chat Thread - #1/INFO]: <carrot123X9> se
-[06:44:58] [Async Chat Thread - #1/INFO]: <carrot123X9> t reapawn point
-[06:47:39] [Async Chat Thread - #2/INFO]: <SikeIamPeng> you need obsid
-[06:47:44] [Async Chat Thread - #2/INFO]: <SikeIamPeng> ?
-[06:47:58] [Async Chat Thread - #2/INFO]: <carrot123X9> no ive got enough
-[06:48:22] [Async Chat Thread - #2/INFO]: <SikeIamPeng> coords pls for nether fort
-[06:48:36] [Async Chat Thread - #2/INFO]: <carrot123X9> 1 min ill check screeenshots
-[06:48:55] [Server thread/INFO]: carrot123X9 lost connection: Disconnected
-[06:48:55] [Server thread/INFO]: carrot123X9 left the game
-[06:48:59] [Async Chat Thread - #2/INFO]: <SikeIamPeng> set spawn
-[06:49:03] [Server thread/INFO]: Seed: [2004344245481668294]
-[06:51:34] [Server thread/INFO]: You whisper to SikeIamPeng: fortress coords are X: -336 Y: 56 Z: 423
-[06:52:04] [Server thread/INFO]: You whisper to SikeIamPeng: not exact but look around and you should see fortress
-[06:53:45] [Async Chat Thread - #3/INFO]: <SikeIamPeng> oh didnt see
-[06:53:49] [Async Chat Thread - #3/INFO]: <SikeIamPeng> ill go now
-[06:54:00] [Async Chat Thread - #3/INFO]: <SikeIamPeng> -336 56 423
-[06:54:09] [User Authenticator #3/INFO]: UUID of player carrot123X9 is 40fb5ec1-3c88-3f7b-9a47-f37fe5bbf4c5
-[06:54:09] [Server thread/INFO]: carrot123X9 joined the game
-[06:54:09] [Server thread/INFO]: carrot123X9[/74.82.28.4:50246] logged in with entity id 2834 at ([world]259.39422910656947, 83.0, 132.2927322105859)
-[06:54:20] [Async Chat Thread - #3/INFO]: <carrot123X9> hey where are you
-[06:54:27] [Async Chat Thread - #3/INFO]: <SikeIamPeng> nether
-[06:54:28] [Async Chat Thread - #3/INFO]: <carrot123X9> send me fortress coords again
-[06:54:38] [Async Chat Thread - #3/INFO]: <SikeIamPeng> -336 56 423
-[06:54:45] [Async Chat Thread - #3/INFO]: <SikeIamPeng> are you breakin bedrock
-[06:54:56] [Async Chat Thread - #3/INFO]: <carrot123X9> yes stay here
-[06:56:56] [Async Chat Thread - #4/INFO]: <SikeIamPeng> dhould i head to coords
-[06:57:03] [Async Chat Thread - #4/INFO]: <carrot123X9> got anyu food
-[06:57:15] [Async Chat Thread - #4/INFO]: <carrot123X9> thanks
-[06:57:16] [Async Chat Thread - #4/INFO]: <SikeIamPeng> 26 mre
-[06:59:48] [Async Chat Thread - #5/INFO]: <carrot123X9> go far away
-[07:00:31] [Async Chat Thread - #5/INFO]: <carrot123X9> go get me 2 pistons real quick
-[07:00:41] [Server thread/INFO]: SikeIamPeng was slain by carrot123X9
-[07:00:47] [Async Chat Thread - #5/INFO]: <SikeIamPeng> dick
-[07:00:51] [Async Chat Thread - #5/INFO]: <carrot123X9> go get me 2 pistons real quick
-[07:02:42] [Async Chat Thread - #6/INFO]: <carrot123X9> where are u
-[07:05:04] [Server thread/INFO]: SikeIamPeng lost connection: Disconnected
-[07:05:04] [Server thread/INFO]: SikeIamPeng left the game
-[07:05:26] [User Authenticator #4/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
-[07:05:26] [Server thread/INFO]: SikeIamPeng joined the game
-[07:05:26] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:60928] logged in with entity id 4868 at ([world_nether]-330.16538357881876, 128.0, 421.1715651242641)
-[07:06:09] [Async Chat Thread - #7/INFO]: <SikeIamPeng> should i explode the tnt
-[07:06:33] [Async Chat Thread - #7/INFO]: <SikeIamPeng> should i]
-[07:06:50] [Async Chat Thread - #7/INFO]: <carrot123X9> shoot
-[07:06:58] [Async Chat Thread - #7/INFO]: <carrot123X9> i need to more tnt
-[07:07:00] [Async Chat Thread - #7/INFO]: <SikeIamPeng> i shoulf hav donei t
-[07:07:01] [Async Chat Thread - #7/INFO]: <carrot123X9> 2
-[07:07:07] [Async Chat Thread - #7/INFO]: <SikeIamPeng> you get it
-[07:07:13] [Server thread/INFO]: carrot123X9 was shot by SikeIamPeng
-[07:07:33] [Async Chat Thread - #7/INFO]: <carrot123X9> what
-[07:07:45] [Async Chat Thread - #7/INFO]: <SikeIamPeng> get tnt
-[07:08:58] [Async Chat Thread - #8/INFO]: <carrot123X9> 1 min
-[07:13:13] [Async Chat Thread - #9/INFO]: <SikeIamPeng> ill explod it this time
-[07:13:33] [Async Chat Thread - #9/INFO]: <SikeIamPeng> ill do i
-[07:13:36] [Async Chat Thread - #9/INFO]: <SikeIamPeng> t
-[07:13:38] [Async Chat Thread - #9/INFO]: <carrot123X9> when is ay go
-[07:13:45] [Async Chat Thread - #9/INFO]: <carrot123X9> go
-[07:14:05] [Server thread/INFO]: carrot123X9 was slain by SikeIamPeng
-[07:14:15] [Async Chat Thread - #9/INFO]: <carrot123X9> can we do this in creativ
-[07:14:17] [Async Chat Thread - #9/INFO]: <SikeIamPeng> ill crawl this time then
-[07:14:22] [Async Chat Thread - #9/INFO]: <SikeIamPeng> no creative
-[07:14:26] [Async Chat Thread - #9/INFO]: <carrot123X9> i ll burn all dia
-[07:14:38] [Async Chat Thread - #9/INFO]: <carrot123X9> c'mon
-[07:14:40] [Async Chat Thread - #9/INFO]: <SikeIamPeng> no creatives cheting
-[07:17:18] [Async Chat Thread - #10/INFO]: <SikeIamPeng> not yet
-[07:17:26] [Async Chat Thread - #10/INFO]: <carrot123X9> ??
-[07:17:26] [Async Chat Thread - #10/INFO]: <SikeIamPeng> ill crawl
-[07:17:35] [Async Chat Thread - #10/INFO]: <carrot123X9> do you know what to do
-[07:17:35] [Async Chat Thread - #10/INFO]: <SikeIamPeng> then you put th elever on
-[07:17:38] [Async Chat Thread - #10/INFO]: <SikeIamPeng> yes
-[07:17:46] [Async Chat Thread - #10/INFO]: <SikeIamPeng> just click the piston
-[07:17:52] [Async Chat Thread - #10/INFO]: <carrot123X9> with a piston
-[07:17:56] [Async Chat Thread - #10/INFO]: <SikeIamPeng> yh
-[07:18:05] [Async Chat Thread - #10/INFO]: <carrot123X9> 3
-[07:18:07] [Async Chat Thread - #10/INFO]: <carrot123X9> 2
-[07:18:08] [Async Chat Thread - #10/INFO]: <carrot123X9> 1
-[07:18:14] [Server thread/INFO]: carrot123X9 blew up
-[07:18:24] [Async Chat Thread - #10/INFO]: <SikeIamPeng> no i was going to say go
-[07:18:28] [Async Chat Thread - #10/INFO]: <carrot123X9> just do in creative c'mon
-[07:18:29] [Async Chat Thread - #10/INFO]: <SikeIamPeng> idiot
-[07:21:09] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ill say go
-[07:21:20] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ready
-[07:21:23] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ?
-[07:21:26] [Async Chat Thread - #11/INFO]: <carrot123X9> yh
-[07:21:30] [Async Chat Thread - #11/INFO]: <SikeIamPeng> 3
-[07:21:32] [Async Chat Thread - #11/INFO]: <SikeIamPeng> 2
-[07:21:36] [Async Chat Thread - #11/INFO]: <SikeIamPeng> 1
-[07:21:40] [Async Chat Thread - #11/INFO]: <SikeIamPeng> go
-[07:22:05] [Async Chat Thread - #11/INFO]: <carrot123X9> creative?
-[07:22:14] [Async Chat Thread - #11/INFO]: <SikeIamPeng> use another method
-[07:22:29] [Async Chat Thread - #11/INFO]: <carrot123X9> spam click ok?
-[07:22:34] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ok
-[07:22:41] [Async Chat Thread - #11/INFO]: <carrot123X9> change keybind to b and hold b
-[07:22:48] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ok
-[07:22:59] [Async Chat Thread - #11/INFO]: <carrot123X9> put your piston in hand
-[07:23:25] [Async Chat Thread - #11/INFO]: <carrot123X9> ssay go
-[07:23:32] [Async Chat Thread - #11/INFO]: <SikeIamPeng> 3
-[07:23:35] [Async Chat Thread - #11/INFO]: <SikeIamPeng> 2
-[07:23:40] [Async Chat Thread - #11/INFO]: <SikeIamPeng> 1
-[07:23:43] [Async Chat Thread - #11/INFO]: <SikeIamPeng> go
-[07:23:57] [Async Chat Thread - #11/INFO]: <carrot123X9> im using creative
-[07:24:01] [Async Chat Thread - #11/INFO]: <SikeIamPeng> no
-[07:24:10] [Async Chat Thread - #11/INFO]: <carrot123X9> ill try last tinme
-[07:24:23] [Async Chat Thread - #11/INFO]: <carrot123X9> give me piston
-[07:24:36] [Async Chat Thread - #11/INFO]: <carrot123X9> hold b ok?
-[07:24:37] [Async Chat Thread - #11/INFO]: <SikeIamPeng> im in correct pos
-[07:24:51] [Async Chat Thread - #11/INFO]: <SikeIamPeng> you say go
-[07:25:03] [Async Chat Thread - #11/INFO]: <carrot123X9> no youre supposed to place your pointer on top right hand of obsid
-[07:25:12] [Async Chat Thread - #11/INFO]: <SikeIamPeng> wait
-[07:25:12] [Async Chat Thread - #11/INFO]: <carrot123X9> not on piston
-[07:25:16] [Async Chat Thread - #11/INFO]: <SikeIamPeng> oh
-[07:25:29] [Async Chat Thread - #11/INFO]: <carrot123X9> ok
-[07:25:36] [Async Chat Thread - #11/INFO]: <carrot123X9> start holding b
-[07:25:55] [Async Chat Thread - #11/INFO]: <carrot123X9> hold b
-[07:25:58] [Async Chat Thread - #11/INFO]: <SikeIamPeng> yhes
-[07:26:03] [Async Chat Thread - #11/INFO]: <carrot123X9> do it
-[07:26:07] [Async Chat Thread - #11/INFO]: <SikeIamPeng> i did
-[07:26:12] [Async Chat Thread - #11/INFO]: <SikeIamPeng> i am
-[07:26:17] [Async Chat Thread - #11/INFO]: <carrot123X9> are you placing piston
-[07:26:20] [Async Chat Thread - #11/INFO]: <SikeIamPeng> just say go
-[07:26:23] [Async Chat Thread - #11/INFO]: <SikeIamPeng> and yes
-[07:26:26] [Async Chat Thread - #11/INFO]: <carrot123X9> ok go
-[07:26:46] [Async Chat Thread - #11/INFO]: <carrot123X9> ill do it
-[07:26:52] [Async Chat Thread - #11/INFO]: <SikeIamPeng> try impulse method
-[07:27:00] [Async Chat Thread - #11/INFO]: <carrot123X9> this is impulse method
-[07:27:11] [Async Chat Thread - #11/INFO]: <carrot123X9> last time
-[07:27:27] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ill watch vid
-[07:27:33] [Async Chat Thread - #11/INFO]: <carrot123X9> give me pistons then
-[07:27:39] [Async Chat Thread - #11/INFO]: <carrot123X9> and lever
-[07:27:41] [Async Chat Thread - #11/INFO]: <SikeIamPeng> one min
-[07:27:46] [Async Chat Thread - #11/INFO]: <carrot123X9> no
-[07:27:57] [Async Chat Thread - #11/INFO]: <carrot123X9> give me piston
-[07:27:58] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ill just watch vid
-[07:28:04] [Async Chat Thread - #11/INFO]: <carrot123X9> give piston
-[07:28:19] [Async Chat Thread - #11/INFO]: <SikeIamPeng> should i say go
-[07:28:47] [Async Chat Thread - #11/INFO]: <carrot123X9> im doing in creative
-[07:28:58] [Async Chat Thread - #11/INFO]: <carrot123X9> ./gamemode creative
-[07:28:58] [Async Chat Thread - #11/INFO]: <SikeIamPeng> ill leave if you do
-[07:29:02] [Async Chat Thread - #11/INFO]: <carrot123X9> go on
-[07:29:14] [Async Chat Thread - #11/INFO]: <carrot123X9> fine
-[07:29:22] [Async Chat Thread - #11/INFO]: <carrot123X9> kill me
-[07:29:22] [Async Chat Thread - #11/INFO]: <SikeIamPeng> give pist
-[07:29:37] [Async Chat Thread - #11/INFO]: <carrot123X9> kill me
-[07:29:44] [Server thread/INFO]: carrot123X9 was slain by SikeIamPeng
-[07:30:36] [Async Chat Thread - #11/INFO]: <SikeIamPeng> one min ill do it in a cretive test word
-[07:30:38] [Server thread/INFO]: SikeIamPeng lost connection: Disconnected
-[07:30:38] [Server thread/INFO]: SikeIamPeng left the game
-[07:39:13] [Server thread/INFO]: carrot123X9 fell from a high place
-[07:45:35] [Server thread/INFO]: carrot123X9 lost connection: Disconnected
-[07:45:35] [Server thread/INFO]: carrot123X9 left the game
-[07:45:42] [Server thread/INFO]: Stopping the server
-[07:45:42] [Server thread/INFO]: Stopping server
-[07:45:42] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.4
-[07:45:42] [Server thread/INFO]: Saving players
-[07:45:42] [Server thread/INFO]: Saving worlds
-[07:45:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:45:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:45:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:45:43] [Server thread/INFO]: Flushing Chunk IO
-[07:45:43] [Server thread/INFO]: Closing Thread Pool
-[07:45:43] [Server thread/INFO]: Closing Server
+[03:57:07] [main/INFO]: Reloading ResourceManager: Default, bukkit, VanillaTweaks_c858478.zip, better-compass.zip, custom nether portals v2.1.0.zip, durability ping v1.1.0.zip, multiplayer sleep v1.0.2.zip, track raw statistics v1.3.0.zip, veinminer-v2.0.1.zip, treecapitator-v2-6-0.zip
+[03:57:07] [Worker-Main-3/INFO]: Loaded 7 recipes
+[03:57:08] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[03:57:08] [Server thread/INFO]: Loading properties
+[03:57:08] [Server thread/INFO]: This server is running Paper version git-Paper-198 (MC: 1.16.3) (Implementing API version 1.16.3-R0.1-SNAPSHOT)
+[03:57:08] [Server thread/INFO]: Debug logging is disabled
+[03:57:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:57:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:57:08] [Server thread/INFO]: Default game type: SURVIVAL
+[03:57:08] [Server thread/INFO]: Generating keypair
+[03:57:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:57:09] [Server thread/INFO]: Using default channel type
+[03:57:10] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.4
+[03:57:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:57:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:57:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:57:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:57:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:57:10] [Server thread/INFO]: Preparing level "world"
+[03:57:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[03:57:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:57:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:57:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:57:10] [Server thread/INFO]: View Distance: 10
+[03:57:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:57:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:57:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:57:10] [Server thread/INFO]: Mob Spawn Range: 8
+[03:57:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03:57:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:57:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:57:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:57:10] [Server thread/INFO]: Max TNT Explosions: 100
+[03:57:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:57:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:57:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[03:57:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:57:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:57:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:57:10] [Server thread/INFO]: View Distance: 10
+[03:57:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:57:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:57:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:57:10] [Server thread/INFO]: Mob Spawn Range: 8
+[03:57:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03:57:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:57:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:57:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:57:10] [Server thread/INFO]: Max TNT Explosions: 100
+[03:57:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:57:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:57:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[03:57:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:57:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:57:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:57:10] [Server thread/INFO]: View Distance: 10
+[03:57:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:57:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:57:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:57:10] [Server thread/INFO]: Mob Spawn Range: 8
+[03:57:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03:57:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:57:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:57:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:57:10] [Server thread/INFO]: Max TNT Explosions: 100
+[03:57:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:57:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:57:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:57:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:57:10] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[03:57:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:57:10] [Server thread/INFO]: Time elapsed: 464 ms
+[03:57:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:57:10] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[03:57:10] [Server thread/INFO]: Time elapsed: 132 ms
+[03:57:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:57:11] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[03:57:11] [Server thread/INFO]: Time elapsed: 86 ms
+[03:57:11] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.4
+[03:57:11] [Server thread/INFO]: Running delayed init tasks
+[03:57:11] [Server thread/INFO]: Done (2.466s)! For help, type "help"
+[03:57:11] [Server thread/INFO]: Timings Reset
+[03:57:43] [User Authenticator #1/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
+[03:57:43] [Server thread/INFO]: SikeIamPeng joined the game
+[03:57:43] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:55470] logged in with entity id 249 at ([world]258.30000001192093, 69.0, 148.39453204613397)
+[04:13:04] [Server thread/INFO]: SikeIamPeng lost connection: Disconnected
+[04:13:04] [Server thread/INFO]: SikeIamPeng left the game
+[04:15:35] [User Authenticator #2/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
+[04:15:35] [Server thread/INFO]: SikeIamPeng joined the game
+[04:15:35] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:55673] logged in with entity id 1792 at ([world]259.5187323049171, 83.0, 132.46609727933193)
+[04:25:09] [User Authenticator #3/INFO]: UUID of player carrot123X9 is 40fb5ec1-3c88-3f7b-9a47-f37fe5bbf4c5
+[04:25:09] [Server thread/INFO]: carrot123X9 joined the game
+[04:25:09] [Server thread/INFO]: carrot123X9[/74.82.28.4:50051] logged in with entity id 2800 at ([world]261.8240749185674, 80.0, 119.55108992199128)
+[04:26:31] [Server thread/INFO]: carrot123X9 lost connection: Disconnected
+[04:26:31] [Server thread/INFO]: carrot123X9 left the game
+[04:31:54] [User Authenticator #4/INFO]: UUID of player carrot123X9 is 40fb5ec1-3c88-3f7b-9a47-f37fe5bbf4c5
+[04:31:54] [Server thread/INFO]: carrot123X9 joined the game
+[04:31:54] [Server thread/INFO]: carrot123X9[/86.1.221.228:51945] logged in with entity id 3417 at ([world]255.4927437924862, 83.0, 131.76666415480858)
+[04:32:50] [Async Chat Thread - #0/INFO]: <carrot123X9> lets do my obsidian thing
+[04:33:12] [Async Chat Thread - #0/INFO]: <SikeIamPeng> im connecting all the farms to the sorting system
+[04:33:25] [Async Chat Thread - #0/INFO]: <carrot123X9> just do this first
+[04:37:17] [Server thread/INFO]: carrot123X9 issued server command: /seed
+[04:38:26] [Server thread/INFO]: carrot123X9 issued server command: /kick SikeIamPeng "Too many packets"
+[04:38:26] [Server thread/INFO]: SikeIamPeng lost connection: "Too many packets"
+[04:38:26] [Server thread/INFO]: SikeIamPeng left the game
+[04:38:26] [Server thread/INFO]: [carrot123X9: Kicked SikeIamPeng: "Too many packets"]
+[04:38:26] [Server thread/INFO]: carrot123X9 issued server command: /gamemode spectator
+[04:38:26] [Server thread/INFO]: [carrot123X9: Set own game mode to Spectator Mode]
+[04:38:30] [Server thread/INFO]: carrot123X9 issued server command: /gamemode survival
+[04:38:30] [Server thread/INFO]: [carrot123X9: Set own game mode to Survival Mode]
+[04:38:33] [User Authenticator #5/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
+[04:38:34] [Server thread/INFO]: SikeIamPeng joined the game
+[04:38:34] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:55861] logged in with entity id 4678 at ([world]257.3574434814702, 87.0, 139.41066450230701)
+[04:38:42] [Server thread/INFO]: carrot123X9 issued server command: /kick SikeIamPeng "Too many packets"
+[04:38:42] [Server thread/INFO]: SikeIamPeng lost connection: "Too many packets"
+[04:38:42] [Server thread/INFO]: SikeIamPeng left the game
+[04:38:42] [Server thread/INFO]: [carrot123X9: Kicked SikeIamPeng: "Too many packets"]
+[04:38:43] [Server thread/INFO]: carrot123X9 issued server command: /gamemode creative
+[04:38:43] [Server thread/INFO]: [carrot123X9: Set own game mode to Creative Mode]
+[04:38:49] [User Authenticator #5/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
+[04:38:50] [Server thread/INFO]: SikeIamPeng joined the game
+[04:38:50] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:55872] logged in with entity id 4721 at ([world]251.78165412539335, 87.0, 138.3722963542164)
+[04:39:05] [Server thread/INFO]: carrot123X9 issued server command: /kick SikeIamPeng "Too many packets"
+[04:39:05] [Server thread/INFO]: SikeIamPeng lost connection: "Too many packets"
+[04:39:05] [Server thread/INFO]: SikeIamPeng left the game
+[04:39:05] [Server thread/INFO]: [carrot123X9: Kicked SikeIamPeng: "Too many packets"]
+[04:39:05] [Server thread/INFO]: carrot123X9 issued server command: /gamemode survival
+[04:39:05] [Server thread/INFO]: [carrot123X9: Set own game mode to Survival Mode]
+[04:39:19] [Server thread/INFO]: carrot123X9 fell from a high place
+[04:39:33] [User Authenticator #5/INFO]: UUID of player SikeIamPeng is 9c12f6c1-a56d-30a0-baa4-66b3f41119fc
+[04:39:33] [Server thread/INFO]: SikeIamPeng joined the game
+[04:39:33] [Server thread/INFO]: SikeIamPeng[/86.1.221.228:55880] logged in with entity id 4818 at ([world]251.40502656695097, 87.0, 138.69999998807907)
+[04:39:42] [Async Chat Thread - #1/INFO]: <carrot123X9> did you get kicked for too many packetS?
+[04:39:45] [Async Chat Thread - #1/INFO]: <carrot123X9> i did
+[04:39:50] [Async Chat Thread - #1/INFO]: <carrot123X9> 3 times
+[04:39:57] [Server thread/INFO]: carrot123X9 lost connection: Kicked by an operator
+[04:39:57] [Server thread/INFO]: carrot123X9 left the game
+[04:39:57] [Server thread/INFO]: Kicked carrot123X9: Kicked by an operator
+[04:40:07] [User Authenticator #5/INFO]: UUID of player carrot123X9 is 40fb5ec1-3c88-3f7b-9a47-f37fe5bbf4c5
+[04:40:07] [Server thread/INFO]: carrot123X9 joined the game
+[04:40:07] [Server thread/INFO]: carrot123X9[/86.1.221.228:52068] logged in with entity id 4850 at ([world]252.86345864289487, 81.08834272806114, 130.95082525779085)
+[04:40:19] [Async Chat Thread - #1/INFO]: <SikeIamPeng> why did you go into creative
+[04:40:27] [Async Chat Thread - #1/INFO]: <SikeIamPeng> i know you kicked me
+[04:41:01] [Server thread/INFO]: carrot123X9 issued server command: /deop carrot123X9
+[04:41:01] [Server thread/INFO]: [carrot123X9: Made carrot123X9 no longer a server operator]
+[04:41:19] [Async Chat Thread - #1/INFO]: <carrot123X9> why is stone farm not working
+[04:43:06] [Server thread/INFO]: carrot123X9 was slain by SikeIamPeng
+[04:43:15] [Server thread/INFO]: SikeIamPeng was slain by carrot123X9
+[04:43:26] [Async Chat Thread - #2/INFO]: <SikeIamPeng> im not playing again
+[04:43:32] [Async Chat Thread - #2/INFO]: <SikeIamPeng> you went into creative
+[04:43:34] [Async Chat Thread - #2/INFO]: <carrot123X9> ok bue
+[04:43:35] [Async Chat Thread - #2/INFO]: <carrot123X9> bye
+[04:43:51] [Async Chat Thread - #2/INFO]: <SikeIamPeng> i told you dipshite
+[04:43:54] [Server thread/INFO]: SikeIamPeng lost connection: Disconnected
+[04:43:54] [Server thread/INFO]: SikeIamPeng left the game
+[04:44:00] [Server thread/INFO]: carrot123X9 lost connection: Disconnected
+[04:44:00] [Server thread/INFO]: carrot123X9 left the game
+[04:44:06] [User Authenticator #6/INFO]: UUID of player carrot123X9 is 40fb5ec1-3c88-3f7b-9a47-f37fe5bbf4c5
+[04:44:06] [Server thread/INFO]: carrot123X9 joined the game
+[04:44:06] [Server thread/INFO]: carrot123X9[/86.1.221.228:52190] logged in with entity id 5318 at ([world]246.3000000119209, 88.0, 117.69999998807907)
+[04:47:37] [Server thread/INFO]: carrot123X9 lost connection: Disconnected
+[04:47:37] [Server thread/INFO]: carrot123X9 left the game
+[04:49:06] [Server thread/INFO]: Stopping the server
+[04:49:06] [Server thread/INFO]: Stopping server
+[04:49:06] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.4
+[04:49:06] [Server thread/INFO]: Saving players
+[04:49:07] [Server thread/INFO]: Saving worlds
+[04:49:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:49:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:49:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:49:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:49:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:49:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:49:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:49:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:49:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:49:08] [Server thread/INFO]: Flushing Chunk IO
+[04:49:08] [Server thread/INFO]: Closing Thread Pool
+[04:49:08] [Server thread/INFO]: Closing Server
