@@ -487,7 +487,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-11-27 09:36:04 -0800"
+      "tick": "2020-11-28 07:40:42 -0800"
     },
     "done": false
   },
@@ -938,6 +938,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-09-26 10:13:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting": {
+    "criteria": {
+      "has_coal_ore": "2020-11-28 07:12:37 -0800"
     },
     "done": true
   },
@@ -1750,9 +1756,10 @@
       "minecraft:crimson_forest": "2020-08-31 05:44:46 -0700",
       "minecraft:nether_wastes": "2020-08-30 08:14:23 -0700",
       "minecraft:soul_sand_valley": "2020-08-30 08:15:48 -0700",
-      "minecraft:basalt_deltas": "2020-09-19 03:37:53 -0700"
+      "minecraft:basalt_deltas": "2020-09-19 03:37:53 -0700",
+      "minecraft:warped_forest": "2020-11-28 07:53:42 -0800"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
@@ -3130,6 +3137,12 @@
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2020-10-31 13:56:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2020-11-28 07:12:37 -0800"
     },
     "done": true
   },
